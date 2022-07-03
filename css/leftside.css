@@ -1,0 +1,346 @@
+/* LEFT SIDE COMMON Styles */
+
+.left {
+    /* background-color: red; */
+
+    flex-direction: column;
+
+    width: 35%;
+    height: 1300px;
+}
+
+/* END LEFT SIDE COMMON Styles */
+
+
+/* CV-IMAGE Section Styles */
+
+.cv-image {
+    /* border: 1px solid black; */
+
+    width: 100%;
+    /* height: 220px; */
+
+    padding: 10px 35px;
+}
+
+.candidate-image {
+    width: 200px;
+    height: 200px;
+
+    /* border: 1px solid black hidden; */
+    border-radius: 50%;
+
+}
+
+/* END CV-IMAGE Section Styles */
+
+
+/* NAME AND BIRDHTDAY Section Styles*/
+
+.name {
+    /* border: 1px solid black; */
+
+    width: 100%;
+    height: 60px;
+
+    text-align: center;
+}
+
+.name h1 {
+    margin-top: 15px;
+}
+
+.birth-date {
+    /* border: 1px solid black; */
+
+    width: 100%;
+    /* height: 20px; */
+
+    text-align: center;
+}
+
+.birth-date p {
+    margin-top: 0px;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* END NAME AND BIRDTHDAY Section Styles*/
+
+
+/* PERSONAL INFORMATION BAR Section Styles*/
+
+.personal-information-board {
+    background-color: rgb(221, 226, 233);
+
+    width: 100%;
+    height: 852px;
+
+}
+
+/* CONTACT Section Styles */
+
+.contact {
+    /* background-color: brown; */
+
+    width: 100%;
+    /* height: 250px; */
+}
+
+.contact-board {
+    background-color: rgb(75, 69, 69);
+
+    margin: auto;
+
+    width: 60%;
+    /* height: 30px; */
+
+    /* text-align: center; */
+}
+
+.contact-board p {
+    color: white;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    text-align: center;
+
+    /* margin-top: auto;
+    margin-bottom: auto; */
+}
+
+.contact-informations {
+    /* border: 1px solid blue; */
+    /* background-color: aqua; */
+
+    width: 100%;
+    /* height: 150px; */
+}
+
+/* ADDRESS, PHONE NUMBER, SOCIAL Area Styles */
+
+
+.icon-div-dimensions {
+    /* border: 1px solid blue; */
+
+    margin-right: 10px;
+    width: 20px;
+    /* height: 20px; */
+}
+
+.informations-list {
+    padding: 5px 0 0 10px;
+    font-weight: bold;
+}
+
+.informations-list a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.location-icon {
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.location,
+.phone,
+.email,
+.social {
+    /* border: 1px solid blue; */
+    display: flex;
+    margin-top: 10px;
+}
+
+/* END ADDRESS, PHONE NUMBER, SOCIAL Area Styles */
+
+/* END CONTACT Section Styles */
+
+
+
+/* LANGUAGE SKILLS Area Styles */
+
+.language {
+    /* background-color: beige; */
+
+    width: 100%;
+    height: 250px;
+}
+
+.language-board {
+    background-color: rgb(75, 69, 69);
+
+    width: 60%;
+
+    margin: auto;
+
+    /* padding-bottom: 5px; */
+
+    /* text-align: center; */
+}
+
+.language-board p {
+    color: white;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.language-skills-table {
+    /* border: 1px solid black; */
+
+    margin: 15px 25px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.language-name {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+
+
+}
+
+.language-skill i {
+    font-size: 13px;
+    padding: 0 3px 0 3px;
+}
+
+
+/* END LANGUAGE SKILLS Area Styles */
+
+/* MILITARY STATUS Area Styles */
+
+.military-status-board {
+    background-color: rgb(75, 69, 69);
+
+    width: 60%;
+    /* height: 40px; */
+
+    margin: auto;
+    /* text-align: center; */
+}
+
+.military-status-board p {
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    text-align: center;
+
+    padding: 10px;
+}
+
+.military-status-detail p {
+    text-align: center;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* END MILITARY STATUS Area Styles */
+
+/* HOBBIES Area Styles */
+
+.hobbies {
+    width: 100%;
+    margin-top: 70px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies-board {
+    background-color: rgb(75, 69, 69);
+
+    width: 60%;
+    height: 30px;
+
+    text-align: center;
+}
+
+.hobbies-board p {
+    display: inline;
+    padding: 5px;
+
+    color: white;
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.hobbie-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+
+    margin-top: 30px;
+}
+
+.hobbie-type {
+    width: 50%;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.hobbie-icon {
+    font-size: 20px;
+    width: 25px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hobbie-name {
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* TURN UL BULLETS INTO FONTAWESOME ICONS */
+
+/* .hobbie-types > ul > .hkg::before {    
+    font-family: 'FontAwesome';
+    content: '\f6ec';
+    margin:0 5px 0 -15px;
+}
+
+.hobbie-types > ul > .cmp::before {    
+    font-family: 'FontAwesome';
+    content: '\f6bb';
+    margin:0 5px 0 -15px;
+}
+
+.hobbie-types > ul > .cys::before {    
+    font-family: 'FontAwesome';
+    content: '\f11b';
+    margin:0 5px 0 -15px;
+}
+
+.hobbie-types > ul > .cyc::before {    
+    font-family: 'FontAwesome';
+    content: '\f206';
+    margin:0 5px 0 -15px;
+} */
+
+/* END TURN UL BULLETS INTO FONTAWESOME ICONS */
+
+
+
+/* END HOBBIES Area Styles */

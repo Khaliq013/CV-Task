@@ -1,0 +1,195 @@
+.right {
+    /* background-color: rgb(250, 233, 0); */
+
+    width: 65%;
+    height: 1300px;
+}
+
+
+
+/* PROFESSIONAL SUMMARY Section Styles */
+
+.professional-summary {
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.summary-row {
+    display: flex;
+    border-bottom: 2px solid black;
+
+    margin-top: 20px;
+
+    /* margin: 0;
+    padding: 0; */
+}
+
+.summary-row h2 {
+    margin: auto 10px;
+}
+
+.summary-icon {
+    margin: auto 5px;
+    font-size: 20px;
+}
+
+.summary-detail {
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.summary-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+/* END PROFESSIONAL SUMMARY Section Styles */
+
+
+/* WORK HISTORY Section Styles */
+
+.work-history-row {
+    display: flex;
+    border-bottom: 2px solid black;
+
+    margin-top: 20px;
+
+    /* margin: 0;
+    padding: 0; */
+}
+
+.work-history-row h2 {
+    margin: auto 10px;
+}
+
+.work-icon {
+    margin: auto 5px;
+    font-size: 20px;
+}
+
+.work-history-detail {
+    margin-left: 30px;
+}
+
+.workplace {
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-bottom: 0;
+}
+
+.working-date {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* .work-summary {
+    padding-right: 0;
+} */
+
+.summary-detail {
+    list-style-type: disc;
+    font-weight: bold;
+    /* padding-top: 7px; */
+}
+
+/* END WORK HISTORY Section Styles */
+
+
+/* EDUCATION Section Styles */
+
+.education-row {
+    display: flex;
+    border-bottom: 2px solid black;
+
+    margin-top: 20px;
+
+    /* margin: 0;
+    padding: 0; */
+}
+
+.education-row h2 {
+    margin: auto 10px;
+}
+
+.education-icon {
+    margin: auto 5px;
+    font-size: 20px;
+}
+
+.education-detail {
+    margin-left: 10px;
+}
+
+.degree {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.university {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.major,
+.graduate {
+    font-weight: bold;
+}
+
+/* END EDUCATION Section Styles */
+
+
+/* SKILLS Section Styles */
+
+
+.skills-row {
+    border-bottom: 2px solid black;
+    display: flex;
+    margin-top: 20px;
+}
+
+.skills-row h2 {
+    margin: auto 10px;
+}
+
+.skill-icon {
+    margin: auto 5px;
+    font-size: 20px;
+}
+
+.skills-details {
+    /* border: 1px solid green; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    /* margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.skill-name {
+    /* border: 1px solid red; */
+
+    width: 270px;
+
+    margin-left: 40px;
+    margin-top: 10px;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.skill-level {
+    /* border: 1px solid rgb(22, 3, 196); */
+
+    margin-right: 20px;
+    margin-top: 10px;
+
+    font-size: 12px;
+}
+
+/* END SKILLS Section Styles */
